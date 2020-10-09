@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifolio</title>
+    <link rel="icon" type="icon/jpp"  href="image/myimage2.png">
+   <!-- bs css -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <!-- tailwind css -->
+   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+<!-- js bstrap -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+
+        html,
+        body,
+        header,
+        .view {
+          height: 100%;
+        }
+      
+        @media (max-width: 740px) {
+          html,
+          body,
+          header,
+          .view {
+            height: 100vh;
+          }
+        }
+      
+        .top-nav-collapse {
+          background-color: #82b1ff !important;
+        }
+      
+        .navbar:not(.top-nav-collapse) {
+          background: transparent !important;
+        }
+      
+        @media (max-width: 991px) {
+         .navbar:not(.top-nav-collapse) {
+          background: #82b1ff !important;
+         }
+        }
+        a :hover{
+            background-color: blue;
+            text-emphasis-color:black;
+        }
+        h5 {
+          letter-spacing: 3px;
+        }
+
+      
+      </style>
+      
+      <!-- Main navigation -->
+      <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+          <div class="container">
+            <a class="navbar-brand" href="about.html">
+              <strong>Profile</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+              aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link " href="skills.html">skills
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " href="#">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">contact me</a>
+                </li>
+              </ul>
+              <form class="form-inline">
+                <div class="md-form my-0">
+                  <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+        <!-- Full Page Intro -->
+        <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
+            <!-- Content -->
+            <div class="container">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12 white-text text-center">
+                  <h1 class="display-3 mb-0 pt-md-5 pt-5 white-text font-weight-bold wow fadeInDown" data-wow-delay="0.3s">NISINGIZWE
+                    <a class="indigo-text font-weight-bold">JOSELYNE</a>
+                  </h1>
+                  <h5 class="text-uppercase pt-md-5 pt-sm-2 pt-5 pb-md-5 pb-sm-3 pb-5 white-text font-weight-bold wow fadeInDown"
+                    data-wow-delay="0.3s">Web,software developer & designed </h5>
+                  <div class="wow fadeInDown" data-wow-delay="0.3s">
+                    <a href="about.html" class="btn btn-light-blue btn-lg btn-rounded">portfolio</a>
+                    <a href="about.html" class="btn btn-indigo btn-lg btn-rounded">About me</a>
+                  </div>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+            <!-- Content -->
+          </div>
+          <!-- Mask & flexbox options-->
+        </div>
+        <!-- Full Page Intro -->
+      </header>
+      <!-- Main navigation -->
+</body>
+</html>
